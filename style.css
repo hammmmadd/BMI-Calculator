@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(to left, rgb(155, 102, 22), rgb(231, 197, 153));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;    
+}
+.login-box {
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    margin-top: 8px;
+}
+h1{
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;   
+}
+h2{
+    justify-content: flex-end;
+}
+.login-box .user-box{
+    position: relative;
+}
+.login-box .user-box input{
+    
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    width: 55px;
+}
+.login-box .user-box label {
+
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+}
+.img{
+    margin-top: 20px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.login-box a button{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(3, 27, 27);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    transition: 0.4s ease;
+}
+.login-box a button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#result{
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.33);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    margin-top: 1rem;
+    color: white;
+   
+}
+
+img{
+    margin-top: 1rem;
+    width: 40rem;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+}
+@media (max-width: 700px) {
+    img{
+        width: 100%;
+    }
+}
